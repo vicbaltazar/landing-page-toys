@@ -9,10 +9,25 @@ header {
 
 #navbar {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
+#nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ff6f91;
+}
+#nav_logo i {
+    font-size: 2rem;
+}
+
+#nav_logo span {
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
 
 #nav_logo {
     font-size: 24px;
@@ -74,4 +89,5 @@ header {
         list-style: none;
         text-align: center;
     }
+
 }
