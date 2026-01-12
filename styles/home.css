@@ -104,3 +104,37 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #home {
+        flex-direction: column;
+        height: auto;
+        gap: 24px;
+        padding-bottom: 40px;
+    }
+
+    #cta {
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.9rem;
+        line-height: 1.2;
+    }
+
+    .title span {
+        display: block;
+        font-size: 2.1rem;
+    }
+
+    .description {
+        font-size: 0.95rem;
+        margin-top: 12px;
+    }
+
+    .social-media-buttons {
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+}
