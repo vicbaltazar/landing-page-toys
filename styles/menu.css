@@ -65,23 +65,50 @@
 }
 
 @media screen and (max-width: 1170px) {
+    #menu {
+       min-height: auto;
+    }
+
     #dishes {
         justify-content: center;
+        gap: 20px;
     }
 
     .dish {
-        flex: 1 1 calc(50% - 24px);
-        max-width: 400px;
+        flex: 1 1 calc(50% - 20px);
+        max-width: 360px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    #menu {
+        padding-top: 40px;
+        padding-bottom: 48px;
+    }
+
+    #dishes {
+        gap: 16px;
+    }
+
+    .dish img.dish-image {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
     .dish {
         flex: 1 1 100%;
         max-width: 100%;
+        padding: 18px 16px;
     }
 
-    #menu .section-subtitle {
+    #menu .section-subtitle, #menu .section-title {
         text-align: center;
+    }
+
+    .dish-price {
+        justify-content: space-between;
+        width: 100%;
     }
 }
