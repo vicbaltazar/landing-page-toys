@@ -41,19 +41,34 @@
     color: #ffffff;
 }
 
-#phone_button {
-    display: flex;
-    gap: 8px;
+.phone-card {
+    display: inline-flex;
     align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
     background-color: #ffffff;
-    padding: 8px 14px;
-    font-weight: 500;
+    border-radius: 999px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
+    transition: box-shadow .3s ease;
 }
 
-#phone_button button {
-    box-shadow: none;
+.phone-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background-color: #ff6f91;
+    color: #ffffff;
+}
+
+.phone-card:hover {
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.18);
+    transform: translateY(-1px);
 }
 
 #banner {
@@ -136,5 +151,10 @@
         justify-content: center;
         margin-top: 16px;
         margin-bottom: 32px;
+    }
+
+    .phone-card {
+        width: 100%;
+        justify-content: center;
     }
 }
