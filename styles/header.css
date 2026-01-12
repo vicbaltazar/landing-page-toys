@@ -29,10 +29,6 @@ header {
 #nav_logo span {
     letter-spacing: 0.12rem;
     text-transform: uppercase;
-
-#nav_logo {
-    font-size: 24px;
-    color: #ff6f91;
 }
 
 #nav_list {
@@ -66,17 +62,28 @@ header {
         display: none;
     }
     #mobile_btn {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 999px;
         border: none;
-        background-color: transparent;
-        font-size: 1.5rem;
+        background-color: #ff6f91;
+        color: #fff;
+        font-size: 1.2rem;
         cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 12px;
+        padding: 16px 0 20px;
+        background-color: #f7edf3;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     }
 
     #mobile_nav_list {
@@ -86,15 +93,29 @@ header {
         margin: 12px 0px;
     }
 
+    #mobile_nav_list a {
+        text-decoration: none;
+        color: #333333;
+        font-weight: 600;
+    }
+
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
     }
 
+    #mobile_nav_list .nav-item a:hover {
+        color: #ff6f91;
+    }
+
+    #mobile_menu .btn-default {
+        width: 80%;
+        max-width: 260px;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    header {
+     header {
         padding: 16px 16px;
     }
 
