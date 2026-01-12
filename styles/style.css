@@ -79,4 +79,21 @@ section {
     font-size: 2.1875rem;
 }
 
+@media (max-width: 600px) {
+    .sbody {
+        font-size: 0.95rem;
+    }
+
+    section {
+        padding: 32px 20px;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.5rem;
+    }
+}
 
