@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-snowman" id="nav_logo"> toys</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">ínicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliaçoes</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">ínicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliaçoes</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <!-- Main content goes here -->
+         <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Aqui a diversão vai até a
+                    <span>criançada!</span>
+                </h1>
+
+                <p class="description">
+                    Uma loja de brinquedos cheia de cor e imaginação, onde cada produto foi escolhido para incentivar o desenvolvimento, a criatividade e a alegria das crianças. Aqui você encontra brinquedos educativos, clássicos e modernos para todas as idades, sempre com muita segurança e carinho em cada detalhe.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Produtos
+                    </a>
+
+                    <a href="tel:+90086-7786" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                            (16) 90086-7786
+                        </button>
+                    </a>
+                </div> 
+
+                <div class="social_media_buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="images/toys.png" alt="">
+            </div>
+         </section>
+
+         <section id="menu">
+            <h2 class="section-title">Produtos</h2>
+            <h3 class="section-subtitle">Nossos brinquedos Favoritos</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/desktop.png" class="dish-image" alt="Computador Hello Kitty">
+
+                    <h3 class="dish-name">
+                        Computador Hello Kitty
+                    </h3>
+
+                    <span class="dish-description">
+                        Um computador Hello Kitty com design divertido e funcional.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 299,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+
+                <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/gato preto.png" class="dish-image" alt="Gato Preto">
+
+                    <h3 class="dish-name">
+                        Gato Preto
+                    </h3>
+
+                    <span class="dish-description">
+                        Um adorável gato preto de pelúcia para abraçar e brincar.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(135+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 79,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+
+                <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/carrinho de alimentos.png" class="dish-image" alt="Carrinho de Alimentos">
+
+                    <h3 class="dish-name">
+                        Carrinho de Alimentos
+                    </h3>
+
+                    <span class="dish-description">
+                        Um carrinho de brinquedo cheio de alimentos coloridos e divertidos.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(238+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 129,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+
+                 <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/donuts.png" class="dish-image" alt="Donuts">
+
+                    <h3 class="dish-name">
+                        Donuts
+                    </h3>
+
+                    <span class="dish-description">
+                        Um conjunto de donuts de brinquedo coloridos e deliciosos.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(99+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$ 43,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-plus"></i> Adicionar
+                        </button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <section id="testimonials">
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    O que nossos clientes estão dizendo sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="images/hyunjin.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Adorei a variedade de brinquedos disponíveis! Comprei um carrinho de alimentos para minha filha e ela simplesmente amou. A qualidade é excelente e o atendimento foi super atencioso. Recomendo a todos os pais que procuram brinquedos divertidos e educativos!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="images/hyunjin.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Comprei o computador Hello Kitty para minha sobrinha e ela ficou encantada! O design é super fofo e funcional, perfeito para crianças. Além disso, o processo de compra foi fácil e rápido. Com certeza voltarei a comprar nessa loja!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+         </section>
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
